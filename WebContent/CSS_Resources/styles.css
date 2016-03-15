@@ -1,0 +1,99 @@
+/***----classes----***/
+.errorMessage
+{
+	color: #FB7E7E;
+	font-style: italic;
+}
+.greenMessage
+{
+	color: #6FFA4F;
+}
+.responsive-text
+{
+	font-size: 90%;
+}
+
+/***---------table----------***/
+#contacts-table{
+	width: 100%;
+	border: 1px solid #FFF;
+}
+.data-table{
+	width: 80%;
+	border: 1px solid #FFF;
+}
+
+.data-table th{
+	background: #4e4e4e;
+}
+
+.data-table tr:nth-child(odd){
+	background: #808080;
+}
+
+.data-table th, .data-table td{
+	border: 1px solid #FFF;
+	padding: 1%;
+}
+
+#table-submit-button td{
+	border: 0 none;
+}
+/****---a links----*****/
+A
+{
+	color: #FFFFFF;
+}
+A:hover
+{
+	color: #FFD700;
+}
+/***-- paragraph---***/
+P
+{
+	text-indent: 5%;
+}
+/***------form--------*****/
+#aside input[type=submit]
+{
+	width: 50%;
+	height: 3em;
+	text-align: center;
+}
+INPUT[type=submit]:hover, INPUT[type=submit]:active
+{
+	background: #000040;
+	color: #FFFFFF;
+}
+INPUT[type=text], INPUT[type=number], INPUT[type=email], INPUT[type=password]
+{
+	padding: 5px;
+	border: 2px solid #D2CDCD;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+INPUT[type=text], INPUT[type=number], INPUT[type=email], INPUT[type=password]:focus
+{
+	border-color: #FFFFFF;
+}
+INPUT[type=submit]
+{
+	padding: 5px 15px;
+	background: #D8DBDB;
+	border: 0 none;
+	cursor: pointer;
+
+	transition: background 0.5s ease;
+	font-weight: bold;
+}
+SELECT
+{
+	padding: 5px;
+	border: 2px solid #CCC;
+	-webkit-border-radius: 5px;
+	border-radius: 2px;
+}
+/**--------li--------**/
+.list-inside{
+	list-style-position: inside;
+}
